@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
-import Clock from './Clock';
+import Landing from './Landing';
 import './App.css';
 
 class App extends Component{
-  
+  render() {
+    
+    return (
+      <Landing />
+    );
+  }
 }
+
+export default App;
