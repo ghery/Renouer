@@ -1,0 +1,14 @@
+.Lieu_Text{
+  text-align: center;
+  font-size: 53px;
+  margin-top: 10%;
+}
+
+.Lieu_DropDown{
+  margin-right: 33%;
+  margin-left: 33%;
+  margin-top: 5%;
+  width: 33%;
+  font-size: 24px;
+  text-align: center;
+}
