@@ -1,0 +1,33 @@
+.Button_accompagnement{
+  text-align: center;
+  width: 50%;
+  border: 1px solid black;
+  font-size: 35px;
+  color: black;
+  margin-left: 25%;
+  margin-top: 15%;
+}
+
+.Button_link:hover{
+  text-decoration: none;
+}
+
+.Button_Type{
+  text-align: center;
+  width: 50%;
+  border: 1px solid black;
+  font-size: 40px;
+  color: black;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+.Button_Ambassadeur{
+  text-align: center;
+  width: 80%;
+  border: 1px solid black;
+  font-size: 35px;
+  color: black;
+  margin-left: 10%;
+  margin-top: 10%;
+}

@@ -1,0 +1,47 @@
+.Ambassadeur{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Ambassadeur_one{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 25%;
+  height: 100%;
+}
+
+.Ambassadeur_pic{
+  width: 90%;
+  height: auto;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 1%;
+  border: 1px solid black;
+}
+
+.Ambassadeur_text{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.Ambassadeur_returnPic{
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 5%;
+  width: 20%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.Ambassadeur_returnText{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5%;
+}
