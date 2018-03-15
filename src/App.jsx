@@ -31,12 +31,30 @@ class App extends Component{
         // <Landing />
         // <Lieu page={this.state.page}/>
         <div>
-          <p className="Lieu_Text">J'habite dans le</p>
+          <p className="Lieu_Text">J’HABITE DANS LE ...</p>
             <form>
               <select className="Lieu_DropDown" MULTIPLE>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
+                <option value="1">1er arrondissement</option>
+                <option value="2">2eme arrondissement</option>
+                <option value="3">3eme arrondissement</option>
+                <option value="4">4eme arrondissement</option>
+                <option value="5">5eme arrondissement</option>
+                <option value="6">6eme arrondissement</option>
+                <option value="1">7eme arrondissement</option>
+                <option value="2">8eme arrondissement</option>
+                <option value="3">9eme arrondissement</option>
+                <option value="4">10eme arrondissement</option>
+                <option value="5">11eme arrondissement</option>
+                <option value="6">12eme arrondissement</option>
+                <option value="1">13eme arrondissement</option>
+                <option value="2">14eme arrondissement</option>
+                <option value="3">15eme arrondissement</option>
+                <option value="4">16eme arrondissement</option>
+                <option value="5">17eme arrondissement</option>
+                <option value="6">18eme arrondissement</option>
+                <option value="1">19eme arrondissement</option>
+                <option value="2">20eme arrondissement</option>
+                <option value="2">autre</option>
               </select><br />
             <Button className="Lieu_Button" onClick={() => this.setState({page: 2})}>
                   Valider
