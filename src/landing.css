@@ -19,8 +19,6 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background-image: -webkit-linear-gradient(270deg, #439fe0, #439fe0);
-  background-image: linear-gradient(180deg, #439fe0, #439fe0);
   text-align: left;
   text-shadow: 0 2px 48px rgba(0, 0, 0, .52);
   overflow: hidden;
@@ -52,6 +50,7 @@
   font-weight: 600;
   text-align: center;
   color: white;
+  z-index: 100;
 }
 
 .button_landing:hover {
@@ -85,6 +84,7 @@
   margin-top: -600px;
   margin-bottom: -400px;
   opacity: 0.03;
+  z-index: 10;
 }
 
 .div-block-3 {

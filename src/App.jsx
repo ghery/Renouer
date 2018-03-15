@@ -29,6 +29,7 @@ class App extends Component{
           <div className="div-block-3">
             <a onClick={() => this.setState({page: 1})} className="button_landing">Commencer !</a>
           </div>
+          <img src="http://uploads.webflow.com/5a744327578ac200014e4a51/5aa97defc3237811918fd10a_20150428-cloud-computing.0.jpg" width="1920" srcset="http://uploads.webflow.com/5a744327578ac200014e4a51/5aa97defc3237811918fd10a_20150428-cloud-computing.0-p-1080.jpeg 1080w, http://uploads.webflow.com/5a744327578ac200014e4a51/5aa97defc3237811918fd10a_20150428-cloud-computing.0.jpg 1200w" sizes="100vw" className="image-2"/>
         </div>
       );
     }
