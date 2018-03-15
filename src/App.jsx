@@ -79,17 +79,7 @@ class App extends Component{
              </a>
              <a className="Aide_typelink" onClick={() => this.setState({aide_type: 2})}>
                <div className="Aide_type">
-                 Culture
-               </div>
-             </a>
-             <a className="Aide_typelink" onClick={() => this.setState({aide_type: 3})}>
-               <div className="Aide_type">
-                 famille
-               </div>
-             </a>
-             <a className="Aide_typelink" onClick={() => this.setState({aide_type: 4})}>
-               <div className="Aide_type">
-                 Etude
+                 Travail
                </div>
              </a>
          </div>
