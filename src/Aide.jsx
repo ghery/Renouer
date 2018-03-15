@@ -9,7 +9,7 @@ class Aide extends Component {
     {
       return(
         <div className="Aide_content">
-          <div className="Aide_aide">
+          <div className="Aide_aide background_dark">
             <div className="Aide_title">
               <p className="Aide_titleText font">Aide Personnalisée au Logement (APL) </p>
             </div>
@@ -23,7 +23,7 @@ class Aide extends Component {
             </div>
           </div>
 
-          <div className="Aide_aide">
+          <div className="Aide_aide background_dark">
             <div className="Aide_title">
               <p className="Aide_titleText font">Allocation de Logement Familiale (ALF)</p>
             </div>
@@ -38,7 +38,7 @@ class Aide extends Component {
             </div>
           </div>
 
-        <div className="Aide_aide">
+        <div className="Aide_aide background_dark">
           <div className="Aide_title">
             <p className="Aide_titleText font">Allocation de Logement à caractère Social (ALS)</p>
           </div>
@@ -53,7 +53,7 @@ class Aide extends Component {
           </div>
         </div>
 
-        <div className="Aide_aide">
+        <div className="Aide_aide background_dark">
           <div className="Aide_title">
             <p className="Aide_titleText font">La prime de déménagement</p>
           </div>
@@ -68,7 +68,7 @@ class Aide extends Component {
           </div>
         </div>
 
-        <div className="Aide_aide">
+        <div className="Aide_aide background_dark">
           <div className="Aide_title">
             <p className="Aide_titleText font">le prêt à l’amélioration de l’habitat</p>
           </div>
@@ -83,7 +83,7 @@ class Aide extends Component {
           </div>
         </div>
 
-      <div className="Aide_aide">
+      <div className="Aide_aide background_dark">
         <div className="Aide_title">
           <p className="Aide_titleText font">Revenu de Solidarité Active (RSA)</p>
         </div>
@@ -98,7 +98,7 @@ class Aide extends Component {
         </div>
       </div>
 
-      <div className="Aide_aide">
+      <div className="Aide_aide background_dark">
         <div className="Aide_title">
           <p className="Aide_titleText font">Prime d’activité</p>
         </div>
@@ -119,7 +119,7 @@ class Aide extends Component {
     else if(this.props.type == 1) {
       return(
         <div className="Aide_content">
-          <div className="Aide_aide">
+          <div className="Aide_aide background_dark">
             <div className="Aide_title">
               <p className="Aide_titleText font">Aide Personnalisée au Logement (APL) </p>
             </div>
@@ -133,7 +133,7 @@ class Aide extends Component {
             </div>
           </div>
 
-          <div className="Aide_aide">
+          <div className="Aide_aide background_dark">
             <div className="Aide_title">
               <p className="Aide_titleText font">Allocation de Logement Familiale (ALF)</p>
             </div>
@@ -148,7 +148,7 @@ class Aide extends Component {
             </div>
           </div>
 
-        <div className="Aide_aide">
+        <div className="Aide_aide background_dark">
           <div className="Aide_title">
             <p className="Aide_titleText font">Allocation de Logement à caractère Social (ALS)</p>
           </div>
@@ -163,7 +163,7 @@ class Aide extends Component {
           </div>
         </div>
 
-        <div className="Aide_aide">
+        <div className="Aide_aide background_dark">
           <div className="Aide_title">
             <p className="Aide_titleText font">La prime de déménagement</p>
           </div>
@@ -178,7 +178,7 @@ class Aide extends Component {
           </div>
         </div>
 
-        <div className="Aide_aide">
+        <div className="Aide_aide background_dark">
           <div className="Aide_title">
             <p className="Aide_titleText font">le prêt à l’amélioration de l’habitat</p>
           </div>
@@ -198,7 +198,7 @@ class Aide extends Component {
     else if(this.props.type == 2) {
       return(
         <div className="Aide_content">
-          <div className="Aide_aide">
+          <div className="Aide_aide background_dark">
             <div className="Aide_title">
               <p className="Aide_titleText font">Revenu de Solidarité Active (RSA)</p>
             </div>
@@ -213,7 +213,7 @@ class Aide extends Component {
             </div>
           </div>
 
-          <div className="Aide_aide">
+          <div className="Aide_aide background_dark">
             <div className="Aide_title">
               <p className="Aide_titleText font">Prime d’activité</p>
             </div>

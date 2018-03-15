@@ -1,8 +1,36 @@
 
 .font{
   font-family: 'Lato', sans-serif;
+  color: white;
 }
 
 .background{
-  background-color: #429CDE;
+  background-color: #48A2E1;
+}
+
+.background_darkLeft{
+  background-color: #227fc3;
+  border-right: 3px solid #165380;
+}
+
+.background_dark{
+  background-color: #227fc3;
+  border: 3px solid #165380;
+}
+
+.button{
+  background-color: #04CA5C;
+  border: 2px solid #025727;
+  border-radius: 0px;
+  color: white;
+}
+
+.button:hover{
+  background-color: #027d39;
+  border: 2px solid #025727;
+  color: white;
+}
+
+.text{
+  color: white;
 }

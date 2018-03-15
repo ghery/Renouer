@@ -56,7 +56,7 @@ class App extends Component{
                 <option value="2">20eme arrondissement</option>
                 <option value="2">autre</option>
               </select><br />
-            <Button className="Lieu_Button font" onClick={() => this.setState({page: 2})}>
+            <Button className="Lieu_Button font button" onClick={() => this.setState({page: 2})}>
                   Valider
               </Button>
             </form>
@@ -66,7 +66,7 @@ class App extends Component{
     if (this.state.page == 2){
       return(
         <div className="Aide">
-         <div className="Aide_category">
+         <div className="Aide_category background_darkLeft">
            <a className="Aide_typelink" onClick={() => this.setState({aide_type: 0})}>
              <div className="Aide_type font">
                Tout
@@ -84,7 +84,7 @@ class App extends Component{
              </a>
          </div>
          <Aide type={this.state.aide_type}/>
-         <Button className="Aide_button font" onClick={() => this.setState({page: 3})}>
+         <Button className="Aide_button font button" onClick={() => this.setState({page: 3})}>
            Valider
          </Button>
         </div>
@@ -94,12 +94,12 @@ class App extends Component{
       return (
         <div>
           <a className="Button_link" onClick={() => this.setState({page: 4})}>
-            <div className="Button_accompagnement font">
+            <div className="Button_accompagnement font button">
               Etre accompagné
             </div>
           </a>
           <a className="Button_link" href="https://mes-aides.gouv.fr/">
-            <div className="Button_accompagnement font">
+            <div className="Button_accompagnement font button">
               Faire mes demarche en ligne
             </div>
           </a>
@@ -110,17 +110,17 @@ class App extends Component{
       return (
         <div>
           <a className="Button_link">
-            <div className="Button_Type font" href="">
+            <div className="Button_Type font button" href="">
               CAF
             </div>
           </a>
           <a className="Button_link font" onClick={() => this.setState({page: 5})}>
-            <div className="Button_Type font">
+            <div className="Button_Type font button">
               Permanence dans mon quartier
             </div>
           </a>
           <a className="Button_link" onClick={() => this.setState({page: 6})}>
-            <div className="Button_Type font">
+            <div className="Button_Type font button">
               Ambassadeur local
             </div>
           </a>
@@ -137,7 +137,7 @@ class App extends Component{
             <div className="quartier_leftcontent">
               <img className="quartier_leftcontent_img" src="img/Aires10.jpg"/>
                 <a className="Button_link">
-                  <div className="Button_Type font">
+                  <div className="Button_Type font button">
                     Recevoire les horaires par SMS
                   </div>
                 </a>
@@ -161,36 +161,36 @@ class App extends Component{
         <div className="Ambassadeur">
           <div className="Ambassadeur_one">
             <img className="Ambassadeur_pic" src="img/joanna.jpeg"/>
-            <p className="Ambassadeur_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className="Ambassadeur_text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               <a className="Button_link" onClick={() => this.setState({page: 7, ambassadeur: 1})}>
-                <div className="Button_Ambassadeur font">
+                <div className="Button_Ambassadeur font button">
                   demander RDV
                 </div>
               </a>
           </div>
           <div className="Ambassadeur_one">
             <img className="Ambassadeur_pic" src="img/yamine.jpeg"/>
-            <p className="Ambassadeur_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className="Ambassadeur_text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               <a className="Button_link" onClick={() => this.setState({page: 7, ambassadeur: 2})}>
-                <div className="Button_Ambassadeur font">
+                <div className="Button_Ambassadeur font button">
                   demander RDV
                 </div>
               </a>
           </div>
           <div className="Ambassadeur_one">
             <img className="Ambassadeur_pic" src="img/siegrid.jpeg"/>
-            <p className="Ambassadeur_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className="Ambassadeur_text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               <a className="Button_link" onClick={() => this.setState({page: 7, ambassadeur: 3})}>
-                <div className="Button_Ambassadeur font">
+                <div className="Button_Ambassadeur font button">
                   demander RDV
                 </div>
               </a>
           </div>
           <div className="Ambassadeur_one">
             <img className="Ambassadeur_pic" src="img/gildas.jpeg"/>
-            <p className="Ambassadeur_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className="Ambassadeur_text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               <a className="Button_link" onClick={() => this.setState({page: 7, ambassadeur: 4})}>
-                <div className="Button_Ambassadeur font">
+                <div className="Button_Ambassadeur font button">
                   demander RDV
                 </div>
               </a>

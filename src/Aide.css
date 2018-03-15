@@ -46,7 +46,6 @@
   width: 98%;
   height: auto;
   margin: 1%;
-  border: 1px solid black;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -79,6 +78,7 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .Aide_checkBox{
@@ -88,6 +88,7 @@
 
 .Aide_CheckboxText{
   font-size: 20px;
+  color: white;
 }
 
 .Aide_Checkbox_Checkbox{
