@@ -1,6 +1,114 @@
-.Landing_Text{
-  width: 33%;
-  margin-left: 33%;
-  font-size: 53px;
-  margin-top: 12%;
+.heading {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  border-bottom-color: #000;
+  background-image: -webkit-linear-gradient(270deg, #43cfeb, #43cfeb);
+  background-image: linear-gradient(180deg, #43cfeb, #43cfeb);
+  font-family: Lato, sans-serif;
+  color: rgba(31, 31, 136, .85);
+  font-size: 32px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.div-block {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: -webkit-linear-gradient(270deg, #439fe0, #439fe0);
+  background-image: linear-gradient(180deg, #439fe0, #439fe0);
+  text-align: left;
+  text-shadow: 0 2px 48px rgba(0, 0, 0, .52);
+  overflow: hidden;
+}
+
+.text-block {
+  position: static;
+  justify-content: center;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.button_landing {
+  width: 200px;
+  height: 60px;
+  padding: 20px 0px 0px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, .57);
+  border-radius: 1px;
+  background-image: -webkit-linear-gradient(270deg, #04ca5c, #04ca5c);
+  background-image: linear-gradient(180deg, #04ca5c, #04ca5c);
+  box-shadow: inset 0 0 22px 1px rgba(255, 255, 0, .42);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+.button_landing:hover {
+  text-decoration: none;
+  color: white;
+  background-image: -webkit-linear-gradient(270deg, #04b753, #04b753);
+  background-image: linear-gradient(180deg, #04b753, #04b753);
+}
+
+.div-block-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.image {
+  display: inline;
+  overflow: visible;
+  margin-top: -600px;
+  background-color: rgba(0, 152, 255, .14);
+  opacity: 0.07;
+}
+
+.image-2 {
+  margin-top: -600px;
+  margin-bottom: -400px;
+  opacity: 0.03;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: left;
+}
+
+html.w-mod-js *[data-ix="title"] {
+  -webkit-transform: translate(100px, 0px);
+  -ms-transform: translate(100px, 0px);
+  transform: translate(100px, 0px);
+}
+
+@media (max-width: 991px) {
+  .button {
+    padding-left: 15px;
+  }
 }

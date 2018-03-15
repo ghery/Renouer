@@ -14,7 +14,7 @@ class App extends Component{
   constructor(props){
     super(props);
     this.state = {
-      page: 1,
+      page: 0,
       aide_type: 0,
       ambassadeur: 0
     }
@@ -22,8 +22,14 @@ class App extends Component{
   render() {
     if (this.state.page == 0){
       return (
-         <Landing />
-        //<Lieu page={this.state.page}/>
+        <div className="div-block">
+          <div className="text-block" data-ix="title">
+            <strong>Renouer</strong> avec mes droits<br/> près de chez moi
+          </div>
+          <div className="div-block-3">
+            <a onClick={() => this.setState({page: 1})} className="button_landing">Commencer !</a>
+          </div>
+        </div>
       );
     }
     if (this.state.page == 1){
@@ -110,7 +116,7 @@ class App extends Component{
       return (
         <div>
           <a className="Button_link">
-            <div className="Button_Type font button" href="">
+            <div className="Button_Type font button">
               CAF
             </div>
           </a>
@@ -161,7 +167,8 @@ class App extends Component{
         <div className="Ambassadeur">
           <div className="Ambassadeur_one">
             <img className="Ambassadeur_pic" src="img/joanna.jpeg"/>
-            <p className="Ambassadeur_text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className="Ambassadeur_text text">Joanna Beaufoy</p>
+            <p className="Ambassadeur_text text">Ambassadrice</p>
               <a className="Button_link" onClick={() => this.setState({page: 7, ambassadeur: 1})}>
                 <div className="Button_Ambassadeur font button">
                   demander RDV
@@ -170,7 +177,8 @@ class App extends Component{
           </div>
           <div className="Ambassadeur_one">
             <img className="Ambassadeur_pic" src="img/yamine.jpeg"/>
-            <p className="Ambassadeur_text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="Ambassadeur_text text">Yamine Haddar</p>
+              <p className="Ambassadeur_text text">Ambassadeur</p>
               <a className="Button_link" onClick={() => this.setState({page: 7, ambassadeur: 2})}>
                 <div className="Button_Ambassadeur font button">
                   demander RDV
@@ -179,7 +187,8 @@ class App extends Component{
           </div>
           <div className="Ambassadeur_one">
             <img className="Ambassadeur_pic" src="img/siegrid.jpeg"/>
-            <p className="Ambassadeur_text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="Ambassadeur_text text">Siegrid Henry</p>
+              <p className="Ambassadeur_text text">Ambassadrice</p>
               <a className="Button_link" onClick={() => this.setState({page: 7, ambassadeur: 3})}>
                 <div className="Button_Ambassadeur font button">
                   demander RDV
@@ -188,7 +197,8 @@ class App extends Component{
           </div>
           <div className="Ambassadeur_one">
             <img className="Ambassadeur_pic" src="img/gildas.jpeg"/>
-            <p className="Ambassadeur_text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="Ambassadeur_text text">Gildas Hery</p>
+              <p className="Ambassadeur_text text">Ambassadeur</p>
               <a className="Button_link" onClick={() => this.setState({page: 7, ambassadeur: 4})}>
                 <div className="Button_Ambassadeur font button">
                   demander RDV
