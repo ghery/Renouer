@@ -11,7 +11,7 @@ class Aide extends Component {
         <div className="Aide_content">
           <div className="Aide_aide">
             <div className="Aide_title">
-              <p className="Aide_titleText">Aide Personnalisée au Logement (APL) </p>
+              <p className="Aide_titleText font">Aide Personnalisée au Logement (APL) </p>
             </div>
             <div className="Aide_under">
               <div className="Aide_underText">
@@ -25,7 +25,7 @@ class Aide extends Component {
 
           <div className="Aide_aide">
             <div className="Aide_title">
-              <p className="Aide_titleText">Allocation de Logement Familiale (ALF)</p>
+              <p className="Aide_titleText font">Allocation de Logement Familiale (ALF)</p>
             </div>
             <div className="Aide_under">
               <div className="Aide_underText">
@@ -40,7 +40,7 @@ class Aide extends Component {
 
         <div className="Aide_aide">
           <div className="Aide_title">
-            <p className="Aide_titleText">Allocation de Logement à caractère Social (ALS)</p>
+            <p className="Aide_titleText font">Allocation de Logement à caractère Social (ALS)</p>
           </div>
           <div className="Aide_under">
             <div className="Aide_underText">
@@ -55,7 +55,7 @@ class Aide extends Component {
 
         <div className="Aide_aide">
           <div className="Aide_title">
-            <p className="Aide_titleText">La prime de déménagement</p>
+            <p className="Aide_titleText font">La prime de déménagement</p>
           </div>
           <div className="Aide_under">
             <div className="Aide_underText">
@@ -70,7 +70,7 @@ class Aide extends Component {
 
         <div className="Aide_aide">
           <div className="Aide_title">
-            <p className="Aide_titleText">le prêt à l’amélioration de l’habitat</p>
+            <p className="Aide_titleText font">le prêt à l’amélioration de l’habitat</p>
           </div>
           <div className="Aide_under">
             <div className="Aide_underText">
@@ -85,7 +85,7 @@ class Aide extends Component {
 
       <div className="Aide_aide">
         <div className="Aide_title">
-          <p className="Aide_titleText">Revenu de Solidarité Active (RSA)</p>
+          <p className="Aide_titleText font">Revenu de Solidarité Active (RSA)</p>
         </div>
         <div className="Aide_under">
           <div className="Aide_underText">
@@ -100,7 +100,7 @@ class Aide extends Component {
 
       <div className="Aide_aide">
         <div className="Aide_title">
-          <p className="Aide_titleText">Prime d’activité</p>
+          <p className="Aide_titleText font">Prime d’activité</p>
         </div>
         <div className="Aide_under">
           <div className="Aide_underText">
@@ -121,7 +121,7 @@ class Aide extends Component {
         <div className="Aide_content">
           <div className="Aide_aide">
             <div className="Aide_title">
-              <p className="Aide_titleText">Aide Personnalisée au Logement (APL) </p>
+              <p className="Aide_titleText font">Aide Personnalisée au Logement (APL) </p>
             </div>
             <div className="Aide_under">
               <div className="Aide_underText">
@@ -135,7 +135,7 @@ class Aide extends Component {
 
           <div className="Aide_aide">
             <div className="Aide_title">
-              <p className="Aide_titleText">Allocation de Logement Familiale (ALF)</p>
+              <p className="Aide_titleText font">Allocation de Logement Familiale (ALF)</p>
             </div>
             <div className="Aide_under">
               <div className="Aide_underText">
@@ -150,7 +150,7 @@ class Aide extends Component {
 
         <div className="Aide_aide">
           <div className="Aide_title">
-            <p className="Aide_titleText">Allocation de Logement à caractère Social (ALS)</p>
+            <p className="Aide_titleText font">Allocation de Logement à caractère Social (ALS)</p>
           </div>
           <div className="Aide_under">
             <div className="Aide_underText">
@@ -165,7 +165,7 @@ class Aide extends Component {
 
         <div className="Aide_aide">
           <div className="Aide_title">
-            <p className="Aide_titleText">La prime de déménagement</p>
+            <p className="Aide_titleText font">La prime de déménagement</p>
           </div>
           <div className="Aide_under">
             <div className="Aide_underText">
@@ -180,7 +180,7 @@ class Aide extends Component {
 
         <div className="Aide_aide">
           <div className="Aide_title">
-            <p className="Aide_titleText">le prêt à l’amélioration de l’habitat</p>
+            <p className="Aide_titleText font">le prêt à l’amélioration de l’habitat</p>
           </div>
           <div className="Aide_under">
             <div className="Aide_underText">
@@ -200,7 +200,7 @@ class Aide extends Component {
         <div className="Aide_content">
           <div className="Aide_aide">
             <div className="Aide_title">
-              <p className="Aide_titleText">Revenu de Solidarité Active (RSA)</p>
+              <p className="Aide_titleText font">Revenu de Solidarité Active (RSA)</p>
             </div>
             <div className="Aide_under">
               <div className="Aide_underText">
@@ -215,7 +215,7 @@ class Aide extends Component {
 
           <div className="Aide_aide">
             <div className="Aide_title">
-              <p className="Aide_titleText">Prime d’activité</p>
+              <p className="Aide_titleText font">Prime d’activité</p>
             </div>
             <div className="Aide_under">
               <div className="Aide_underText">

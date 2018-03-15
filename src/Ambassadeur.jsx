@@ -15,7 +15,7 @@ class Ambassadeur extends Component {
       return(
         <div>
           <img className="Ambassadeur_returnPic" src="img/joanna.jpeg"/>
-          <p className="Ambassadeur_returnText">Joanna vous recontactera</p>
+          <p className="Ambassadeur_returnText font">Joanna vous recontactera</p>
         </div>
       );
     }
@@ -23,7 +23,7 @@ class Ambassadeur extends Component {
       return(
         <div>
           <img className="Ambassadeur_returnPic" src="img/yamine.jpeg"/>
-          <p className="Ambassadeur_returnText">Yamine vous recontactera</p>
+          <p className="Ambassadeur_returnText font">Yamine vous recontactera</p>
         </div>
       );
     }
@@ -31,7 +31,7 @@ class Ambassadeur extends Component {
       return(
         <div>
           <img className="Ambassadeur_returnPic" src="img/siegrid.jpeg"/>
-          <p className="Ambassadeur_returnText">Siegrid vous recontactera</p>
+          <p className="Ambassadeur_returnText font">Siegrid vous recontactera</p>
         </div>
       );
     }
@@ -39,7 +39,7 @@ class Ambassadeur extends Component {
       return(
         <div>
           <img className="Ambassadeur_returnPic" src="img/gildas.jpeg"/>
-          <p className="Ambassadeur_returnText">Gildas vous recontactera</p>
+          <p className="Ambassadeur_returnText font">Gildas vous recontactera</p>
         </div>
       );
     }
