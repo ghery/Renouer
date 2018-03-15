@@ -38,7 +38,7 @@ class App extends Component{
         // <Landing />
         // <Lieu page={this.state.page}/>
         <div>
-          <p className="Lieu_Text font">J’HABITE DANS LE ...</p>
+          <p className="Lieu_Text font">J’habite dans le  :</p>
             <form>
               <select className="Lieu_DropDown" MULTIPLE>
                 <option value="1">1er arrondissement</option>
